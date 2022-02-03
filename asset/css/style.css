@@ -1,7 +1,9 @@
+.in-line{
+    display: inline-block;
+}
 #container{
-    width: 1000px;
-    
-    
+    width: 1200px;
+      
 }
 .item{
     width: 325px;
@@ -51,4 +53,10 @@ div.one:hover{
 div.two:hover{
     background-image: url(../img/2b.webp);
 }
-
+.three{
+    background-image: url(../img/3.webp);
+    background-size: cover;
+}
+div.three:hover{
+    background-image: url(../img/3b.webp);
+}
